@@ -1,0 +1,9 @@
+<ul>
+	{% for item in items %}
+	<li>
+		<a href ="{% url 'item_detail' item.id %}">
+			{{ item.title | capfirst }}
+		</a>
+	</li>
+	{% endfor %}
+</ul>
