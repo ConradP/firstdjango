@@ -24,7 +24,7 @@ SECRET_KEY = 'k16!@py*e$rx&%7h1wt73%z9@a%31(bkrzwh))(o8+41-#_6fa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+DEBUG_TOOLBAR_PATCH_SETTINGS=False
 ALLOWED_HOSTS = []
 
 
